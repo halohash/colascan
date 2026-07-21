@@ -25,7 +25,7 @@ class AudioManager {
     buildPlaylist() {
         var musicPath = 'music/';
         audioSettings.order.forEach(order => {
-            this.playlist.push(`${musicPath}Track ${order}.mp3`)
+            this.playlist.push(`${musicPath}${order}.mp3`)
         });
     }
 
