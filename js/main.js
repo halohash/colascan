@@ -33,7 +33,7 @@ $(function(){
 
 });
 
-window.addEventListener("load", async () => {
+async function loadMarqueeText() {
     try {
         const response = await fetch("https://thedust.pages.dev/anytext.txt", {
             cache: "no-store"
@@ -54,4 +54,8 @@ window.addEventListener("load", async () => {
     } catch (err) {
         console.error("Failed to load marquee text:", err);
     }
-});
+}
+
+window.addEventListener("load", loadMarqueeText);
+
+setInterval(loadMarqueeText,10000);
