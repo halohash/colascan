@@ -3,7 +3,7 @@ var api_key = 'e1f10a1e78da46f5b10a1e78da96f525';
 var apperanceSettings = {
   providerName: "HashPie Media",
   loop: true,
-  marqueeType: "both", 
+  marqueeType: "ad", 
   //Default is both. Set to 'none' to hide the lower detail information, Set to 'observations' for only observations, 'ad' for only advertisements, 'both' for alternation between observations and advertisements.
   marqueeAd:  ["If you are interested in TWC, EAS, or anything weather/tech related, join Mist Weather Media! https://mistwx.com/discord"],
   onlyLDLMode: false,
