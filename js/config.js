@@ -5,7 +5,7 @@ var apperanceSettings = {
   loop: true,
   marqueeType: "ad", 
   //Default is both. Set to 'none' to hide the lower detail information, Set to 'observations' for only observations, 'ad' for only advertisements, 'both' for alternation between observations and advertisements.
-  marqueeAd:  ["If you are interested in TWC, EAS, or anything weather/tech related, join Mist Weather Media! https://mistwx.com/discord","Want to edit this crawl? go to owot.me/dustfire],
+  marqueeAd:  ["If you are interested in TWC, EAS, or anything weather/tech related, join Mist Weather Media! https://mistwx.com/discord","Want to edit this crawl? go to owot.me/dustfire"],
   onlyLDLMode: false,
   startupTime: 2500,//set to 0 if you want to skip, not recommended
   aspectRatio: 4/3,
