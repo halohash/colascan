@@ -32,3 +32,26 @@ $(function(){
 	scaleWindow(); // init
 
 });
+
+window.addEventListener("load", async () => {
+    try {
+        const response = await fetch("https://thedust.pages.dev/anytext.txt", {
+            cache: "no-store"
+        });
+
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+
+        const text = await response.text();
+
+        if (
+            typeof apperanceSettings === "object" &&
+            Array.isArray(apperanceSettings.marqueeAd)
+        ) {
+            apperanceSettings.marqueeAd[0] = text.trim();
+        }
+    } catch (err) {
+        console.error("Failed to load marquee text:", err);
+    }
+});
