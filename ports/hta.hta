@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ColaScan</title>
+
+    <hta:application
+        id="ColaScan"
+        applicationname="ColaScan"
+        border="thin"
+        borderstyle="normal"
+        caption="yes"
+        contextmenu="yes"
+        icon=""
+        maximizebutton="yes"
+        minimizebutton="yes"
+        navigable="yes"
+        scroll="no"
+        selection="no"
+        showintaskbar="yes"
+        singleinstance="yes"
+        sysmenu="yes"
+        windowstate="maximize"
+    />
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe
+        src="https://colascan.pages.dev/"
+        allowtransparency="true">
+    </iframe>
+</body>
+</html>
