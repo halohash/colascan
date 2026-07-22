@@ -1,7 +1,7 @@
 var api_key = 'e1f10a1e78da46f5b10a1e78da96f525';
 
 var apperanceSettings = {
-  providerName: "Mist Weather Media",
+  providerName: "HashPie Media",
   loop: true,
   marqueeType: "both", 
   //Default is both. Set to 'none' to hide the lower detail information, Set to 'observations' for only observations, 'ad' for only advertisements, 'both' for alternation between observations and advertisements.
